@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f4f4f9;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Results Container */
+.results-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 60px; /* To prevent content from being hidden behind the fixed navbar */
+}
+
+/* Result Card */
+.result-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* User Details Section */
+.user-details {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.detail {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.detail strong {
+    color: #000;
+}
+
+/* Prediction Result */
+.prediction-result {
+    background-color: #e9f7df;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-result h3 {
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.prediction-result p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Go Back Button */
+.go-back-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.go-back-btn:hover {
+    background-color: #45a049;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .result-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .detail {
+        font-size: 14px;
+    }
+
+    .prediction-result h3 {
+        font-size: 18px;
+    }
+
+    .prediction-result p {
+        font-size: 16px;
+    }
+
+    .go-back-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

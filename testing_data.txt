@@ -1,0 +1,51 @@
+1. Flight Number: AA100
+
+Airport Code: ATL (Atlanta Hartsfield-Jackson)
+Flight Date: 2023-11-15
+Source Airport: ATL (Atlanta)
+Destination Airport: JFK (New York JFK)
+Air Time (minutes): 90 minutes
+distance = 300 miles
+Delayed: Yes: 
+
+
+2. Flight Number: UA200
+
+Airport Code: ORD (Chicago O'Hare)
+Flight Date: 2023-11-16
+Source Airport: ORD (Chicago)
+Destination Airport: LAX (Los Angeles)
+Air Time (minutes): 200 minutes
+Distance (miles): 1750 miles
+Delayed: No
+
+3. Flight Number: DL300
+
+Airport Code: MSP (Minneapolis-St. Paul)
+Flight Date: 2023-11-17
+Source Airport: MSP (Minneapolis)
+Destination Airport: SEA (Seattle)
+Air Time (minutes): 220 minutes
+distance: 1500
+Delayed? No 
+
+4. Flight Number: SW400
+
+Airport Code: DFW (Dallas Fort Worth)
+Flight Date: 2023-11-18
+Source Airport: DFW (Dallas)
+Destination Airport: SFO (San Francisco)
+Air Time (minutes): 180 minutes
+Distance (miles): 1350 miles
+Delayed? No
+
+
+5. Flight Number: BA500
+
+Airport Code: LHR (London Heathrow)
+Flight Date: 2023-11-19
+Source Airport: LHR (London Heathrow)
+Destination Airport: JFK (New York JFK)
+Air Time (minutes): 400 minutes
+Distance: 3450 
+Delayed? No 

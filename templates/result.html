@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result-style.css') }}">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="/">Home</a> | <a href="/logout">Logout</a>
+    </div>
+
+    <!-- Main Container for Results -->
+    <div class="results-container">
+        <div class="result-card">
+            <h2>Flight Delay Prediction</h2>
+
+            <!-- Displaying User Input Data and Prediction Result -->
+            <div class="user-details">
+                <div class="detail">
+                    <strong>Flight Number:</strong> {{ flight_number }}
+                </div>
+                <div class="detail">
+                    <strong>Airport Code:</strong> {{ airport_code }}
+                </div>
+                <div class="detail">
+                    <strong>Source Airport:</strong> {{ source }}
+                </div>
+                <div class="detail">
+                    <strong>Destination Airport:</strong> {{ destination }}
+                </div>
+                <div class="detail">
+                    <strong>Flight Date:</strong> {{ flight_date }}
+                </div>
+                <div class="detail">
+                    <strong>Air Time:</strong> {{ air_time }} minutes
+                </div>
+                <div class="detail">
+                    <strong>Distance:</strong> {{ distance }} miles
+                </div>
+            </div>
+
+            <!-- Prediction Result -->
+            <div class="prediction-result">
+                <h3>Prediction:</h3>
+                <p>{{ prediction }}</p>
+            </div>
+
+            <!-- Go Back Button -->
+            <a href="/" class="go-back-btn">Go Back to Home</a>
+        </div>
+    </div>
+
+</body>
+</html>
